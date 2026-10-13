@@ -1,0 +1,5 @@
+{"section":"sec2","verdict":"match",
+ "mine":{"lines":60,"table_rows":10,"code_blocks":1,"figure_refs":2},
+ "theirs":{"lines":60,"table_rows":10,"code_blocks":1,"figure_refs":2},
+ "discrepancies":[],
+ "confidence":"high"}

@@ -1,0 +1,1 @@
+{"section":"sec1","lines":59,"table_rows":3,"code_blocks":0,"figure_refs":2,"figure_ids":["fig01","fig02"],"anomalies":[],"evidence":{"table_rows":"lines 22-26 contain '|' lines: 1 header (第几次调用) + 1 separator (---) excluded + 3 data rows (第 1 次/第 2 次/第 3 次)","code_blocks":"no line begins with three backticks in the file, so 0 fenced code blocks"}}

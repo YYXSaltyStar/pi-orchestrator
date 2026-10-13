@@ -1,0 +1,49 @@
+﻿{
+    "sec1":  {
+                 "lines":  59,
+                 "nonblank":  34,
+                 "table_rows":  3,
+                 "pipe_rows":  5,
+                 "code_blocks":  0,
+                 "figure_refs":  2,
+                 "figure_ids":  [
+                                    "fig01",
+                                    "fig02"
+                                ]
+             },
+    "sec2":  {
+                 "lines":  61,
+                 "nonblank":  41,
+                 "table_rows":  12,
+                 "pipe_rows":  14,
+                 "code_blocks":  1,
+                 "figure_refs":  2,
+                 "figure_ids":  [
+                                    "fig03",
+                                    "fig04"
+                                ]
+             },
+    "sec3":  {
+                 "lines":  29,
+                 "nonblank":  16,
+                 "table_rows":  0,
+                 "pipe_rows":  0,
+                 "code_blocks":  0,
+                 "figure_refs":  1,
+                 "figure_ids":  [
+                                    "fig05"
+                                ]
+             },
+    "sec4":  {
+                 "lines":  52,
+                 "nonblank":  34,
+                 "table_rows":  14,
+                 "pipe_rows":  16,
+                 "code_blocks":  0,
+                 "figure_refs":  2,
+                 "figure_ids":  [
+                                    "fig06",
+                                    "fig07"
+                                ]
+             }
+}

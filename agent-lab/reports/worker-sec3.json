@@ -1,0 +1,4 @@
+{"section":"sec3","lines":28,"table_rows":0,"code_blocks":0,"figure_refs":1,
+ "figure_ids":["fig05"],"anomalies":[],
+ "evidence":{"table_rows":"no lines begin with '|' anywhere in the file; no tables present",
+             "code_blocks":"no lines begin with three backticks; no fenced code blocks present"}}

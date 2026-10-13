@@ -1,0 +1,4 @@
+{"section":"sec4","lines":51,"table_rows":12,"code_blocks":0,"figure_refs":2,
+ "figure_ids":["fig06","fig07"],"anomalies":[],
+ "evidence":{"table_rows":"Table 1 lines 7-11: header + separator + 3 data rows; Table 2 lines 17-27: header + separator + 9 data rows; total 12",
+             "code_blocks":"no line begins with three backticks anywhere in the file"}}

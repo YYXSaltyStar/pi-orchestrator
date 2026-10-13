@@ -1,0 +1,5 @@
+{"section":"sec1","verdict":"mismatch",
+ "mine":{"lines":59,"table_rows":3,"code_blocks":0,"figure_refs":2},
+ "theirs":{"lines":60,"table_rows":3,"code_blocks":0,"figure_refs":2},
+ "discrepancies":[{"field":"lines","mine":59,"theirs":60,"note":"Full read shows 58 content lines (last = '**图 2.** 两种模型主动遗忘的方式' at line 58). Probing with read offset: offset 59 returns an empty line (a trailing blank line exists) and offset 60 returns no output (EOF), so the file is 59 lines including the trailing blank, or 58 if the final newline is not counted as a line. Neither count reproduces 60; the worker's figure appears to come from a different total than the section content."}],
+ "confidence":"medium"}

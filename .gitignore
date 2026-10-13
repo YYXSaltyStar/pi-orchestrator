@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------------------
+# Secrets -- never commit these
+# ---------------------------------------------------------------------------
+# Pi stores provider API keys and OAuth tokens here, in plain text (mode 0600).
+auth.json
+**/auth.json
+.credentials.yaml
+**/.credentials.yaml
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------------------------
+# Pi runtime state
+# ---------------------------------------------------------------------------
+# Session transcripts. These can contain full prompts, tool output, file
+# contents, and anything a credential-printing command ever echoed.
+*.jsonl
+**/sessions/
+**/trust.json
+models-store.json
+**/attachments/
+
+# ---------------------------------------------------------------------------
+# Generated / transient
+# ---------------------------------------------------------------------------
+# Scratch outputs from agent runs. The committed reports under agent-lab/reports/
+# are the recorded results of a specific verified run; new runs overwrite them.
+node_modules/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+_ai4s_cache/
+tmp/
+
+# ---------------------------------------------------------------------------
+# Course material -- third-party content, not redistributed here
+# ---------------------------------------------------------------------------
+# The lecture notes and their extracted sections belong to their author.
+课前材料/
+**/sections/
+
+# ---------------------------------------------------------------------------
+# Editor / OS
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
